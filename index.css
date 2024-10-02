@@ -1,0 +1,67 @@
+.traffics_lights {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+.traffic-light {
+  width: 100px;
+  height: 260px;
+  background-color: #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  border: solid 2px;
+}
+
+.light {
+  border: solid 2px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+  transform: translate(15%);
+}
+
+.yellow {
+  background-color: yellow;
+  transform: translate(15%, 30%);
+}
+
+.green {
+  background-color: green;
+  transform: translate(15%, 50%);
+}
+.traffic-light_2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100px;
+  height: 260px;
+  background-color: #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  border: solid 2px;
+}
+.light_2 {
+  position: relative;
+  left: 15%;
+  border: solid 2px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.red_2 {
+  background-color: red;
+}
+
+.yellow_2 {
+  background-color: yellow;
+}
+
+.green_2 {
+  background-color: green;
+}
